@@ -1,0 +1,44 @@
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+
+# Build artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+
+# MSTest, NTest, xUnit test results
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Coverlet
+coverage.opencover.xml
+
+# User-specific files
+*.userprefs
+
+# OneDrive/Temp
+~$*
+*.cache
+
+# Ignore local test output folder
+MouseRecorder_test/
