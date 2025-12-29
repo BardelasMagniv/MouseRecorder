@@ -4,6 +4,7 @@ namespace MouseRecorder
 {
     internal interface ISpawner
     {
-        SpawnResult Spawn(Panel playArea, Button target);
+        // spawn with optional safe client rectangle (coordinates relative to playArea client)
+        SpawnResult Spawn(Panel playArea, Button target, System.Drawing.Rectangle? safeClientRect = null);
     }
 }
